@@ -1,4 +1,4 @@
 Openstack-Project-Introduction
 ==============================
 
-A brief introduction of all the project in openstack community http://www.openstack.org/
+一份关于openstack中所有开源项目的中文介绍 (/Intro.md)
