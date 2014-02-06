@@ -10,3 +10,9 @@
 | [neutron](https://github.com/openstack/horizon) | openstack的网络组织控制器，提供云计算环境下的虚拟网络功能 |
 | [marconi](https://github.com/openstack/marconi) | openstack的消息队列服务，对应于AWS的SNS和SQS |
 | [ceilometer](https://github.com/openstack/ceilometer) | openstack中的事件收集服务，为监控和计费提供支持，这些事件包括平台中用户的资源使用情况和资源的健康状态 |
+| [cinder](https://github.com/openstack/cinder) | 为openstack平台提供volume卷管理和虚拟块设备服务，对应于AWS的EBS服务 |
+| [diskimage-builder](https://github.com/openstack/diskimage-builder) | 为openstack(虚拟机或者物理机）提供磁盘镜像，文件系统镜像和Ramdisk镜像打包的工具 |
+| [gantt](https://github.com/openstack/gantt) | openstack各部件的通用调度器框架，目前大部分的代码来自于nova-scheduler
+|
+| [glance](https://github.com/openstack/glance) | 为openstack提供虚拟机镜像的发现，注册，管理和传递服务 |
+| [heat](https://github.com/openstack/heat) | Heat是openstack中应用编配服务，可以用于管理基于openstack应用的整个生命周期，其对用于AWS的CloudFormation服务, 并且可以直接使用用于CloudFormation的启动模版 |
