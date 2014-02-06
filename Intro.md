@@ -5,8 +5,7 @@
 | 项目名称 | 描述 |
 |:---:|:---:|
 | [nova](https://github.com/openstack/nova) | openstack中的计算组织控制器，支持多种虚拟化技术(如KVM，LXC等)，对应于AWS的EC2服务 <br> python客户端：[python-novaclient](https://github.com/openstack/python-novaclient)|
-| [swift](https://github.com/openstack/swift) | openstack中的非结构化、弹性可伸缩、高可用的分布式对象存储服务，对应于AWS的S3服务 <br> python客户端：[python-swiftclient](https://github.com/openstack/python-swiftclient)  <br>
-swift的benchmark工具：[swift-bench](https://github.com/openstack/swift-bench) |
+| [swift](https://github.com/openstack/swift) | openstack中的非结构化、弹性可伸缩、高可用的分布式对象存储服务，对应于AWS的S3服务 <br> python客户端：[python-swiftclient](https://github.com/openstack/python-swiftclient) <br> swift的benchmark工具：[swift-bench](https://github.com/openstack/swift-bench) |
 | [horizon](https://github.com/openstack/horizon) | 基于Django实现，是openstack各个服务的web操作和查看面板，并且结构可扩展，很方便添加新的服务界面 |
 | [neutron](https://github.com/openstack/horizon) | openstack的网络组织控制器，提供云计算环境下的虚拟网络功能 <br> python客户端：[python-neutronclient](https://github.com/openstack/python-neutronclient) |
 | [marconi](https://github.com/openstack/marconi) | openstack的消息队列服务，对应于AWS的SNS和SQS <br> python客户端：[python-marconiclient](https://github.com/openstack/python-marconiclient) |
@@ -23,8 +22,7 @@ swift的benchmark工具：[swift-bench](https://github.com/openstack/swift-bench
 | [os-apply-config](https://github.com/openstack/os-apply-config) | 将openstack中cloud metadata信息(如heat中的template)转换成虚拟机OS可以识别的配置文件的工具 |
 | [os-collect-config](https://github.com/openstack/os-collect-config) | openstack实例中收集平台中配置文件的工具 |
 | [os-refresh-config](https://github.com/openstack/os-refresh-config) | openstack实例的工具，用于监控heat模版的变化，并在必要时重启实例中的应用和服务 |
-| [oslo-incubator](https://github.com/openstack/oslo-incubator) | oslo被设计为openstack各个服务的公共基础代码，因此其他服务(如nova，neutron服务)可重用的代码则需要加入到oslo中
-| [oslo.config](https://github.com/openstack/oslo.config) | oslo中服务配置的API，可为其他服务解析命令行参数和.ini配置文件 |
+| [oslo-incubator](https://github.com/openstack/oslo-incubator) | oslo被设计为openstack各个服务的公共基础代码，因此其他服务(如nova，neutron服务)可重用的代码则需要加入到oslo中 <br> oslo解析命令行参数和.ini配置文件的API：[oslo.config](https://github.com/openstack/oslo.config) |
 | [savanna](https://github.com/openstack/savanna) | 用于在openstack上快速建立Hadoop集群的服务，对应AWS的EMR <br> python客户端：[python-savannaclient](https://github.com/openstack/python-savannaclient) <br> horizon插件：[savanna-dashboard](https://github.com/openstack/savanna-dashboard) <br> 集成Hadoop的OS打包工具：[savanna-image-elements](https://github.com/openstack/savanna-image-elements) <br> savanna其他部件：[savanna-extra](https://github.com/openstack/savanna-extra) | 
 | [trove](https://github.com/openstack/trove) | trove是openstack的弹性数据库服务，目标是支持mysql, Cassandra, redis等多种类型，对应于AWS的RDS服务 <br> python客户端：[python-troveclient](https://github.com/openstack/python-troveclient) |
 | [python-openstackclient](https://github.com/openstack/python-openstackclient) | 对其他各个python-*client模块进行封装，旨在为openstack各服务提供统一的命令行调用和API接口 |
