@@ -16,3 +16,6 @@
 |
 | [glance](https://github.com/openstack/glance) | 为openstack提供虚拟机镜像的发现，注册，管理和传递服务 |
 | [heat](https://github.com/openstack/heat) | Heat是openstack中应用编配服务，可以用于管理基于openstack应用的整个生命周期，其对用于AWS的CloudFormation服务, 并且可以直接使用用于CloudFormation的启动模版 |
+| [heat-cfntools](https://github.com/openstack/heat-cfntools) | Heat服务的helper组件，运行于虚拟机内部，用于自动部署应用，向平台通知事件等 |
+| [heat-templates](https://github.com/openstack/heat-templates) | Heat中自动部署应用的参考模版集合 |
+
