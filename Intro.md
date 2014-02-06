@@ -28,5 +28,4 @@
 | [python-openstackclient](https://github.com/openstack/python-openstackclient) | 对其他各个python-*client模块进行封装，旨在为openstack各服务提供统一的命令行调用和API接口 |
 | [tuskar](https://github.com/openstack/tuskar) | 管理数据中心中openstack各个服务安装和部署的组件，同时，它还为平台管理者提供了诸如性能监控，健康度统计，使用量统计和硬件采购决策等功能。<br> python客户端：[python-tuskarclient](https://github.com/openstack/python-tuskarclient) <br> horizon插件：[tuskar-ui](https://github.com/openstack/tuskar-ui) |
 | [tempest](https://github.com/openstack/tempest) | openstack的集成测试工具，被设计成能够在任意规模的云环境中运行 |
-| [tripleo-incubator](https://github.com/tripleo-incubator) | tripleo(三个O，openstack-on-openstack)是个有趣的项目，通过在openstack中部署openstack开发测试环境，从功能代码更新到部署到实际生产环境自动化完成，并且具有速度快，代码可靠特点和持续集成/持续交付的能力 <br>
-构建用于tripleo部署的镜像的打包工具：[tripleo-image-elements](https://github.com/openstack/tripleo-image-elements) <br> tripleo的heat部署模版：[tripleo-heat-templates](https://github.com/openstack/tripleo-heat-templates)
+| [TripleO-incubator](https://github.com/tripleo-incubator) | TripleO(三个O，openstack-on-openstack)是个有趣的项目，通过在openstack中部署openstack开发测试环境，从功能代码更新到部署到实际生产环境自动化完成，并且具有速度快，代码可靠特点和持续集成/持续交付的能力 <br> 构建用于TripleO部署的镜像的打包工具：[tripleo-image-elements](https://github.com/openstack/tripleo-image-elements) <br> TripleO的heat部署模版：[tripleo-heat-templates](https://github.com/openstack/tripleo-heat-templates)
