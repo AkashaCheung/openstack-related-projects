@@ -12,8 +12,7 @@
 | [ceilometer](https://github.com/openstack/ceilometer) | openstack中的事件收集服务，为监控和计费提供支持，这些事件包括平台中用户的资源使用情况和资源的健康状态 |
 | [cinder](https://github.com/openstack/cinder) | 为openstack平台提供volume卷管理和虚拟块设备服务，对应于AWS的EBS服务 |
 | [diskimage-builder](https://github.com/openstack/diskimage-builder) | 为openstack(虚拟机或者物理机）提供磁盘镜像，文件系统镜像和Ramdisk镜像打包的工具 |
-| [gantt](https://github.com/openstack/gantt) | openstack各部件的通用调度器框架，目前大部分的代码来自于nova-scheduler
-|
+| [gantt](https://github.com/openstack/gantt) | openstack各部件的通用调度器框架，目前大部分的代码来自于nova-scheduler|
 | [glance](https://github.com/openstack/glance) | 为openstack提供虚拟机镜像的发现，注册，管理和传递服务 |
 | [heat](https://github.com/openstack/heat) | Heat是openstack中应用编配服务，可以用于管理基于openstack应用的整个生命周期，其对用于AWS的CloudFormation服务, 并且可以直接使用用于CloudFormation的启动模版 |
 | [heat-cfntools](https://github.com/openstack/heat-cfntools) | Heat服务的helper组件，运行于虚拟机内部，用于自动部署应用，向平台通知事件等 |
@@ -23,3 +22,21 @@
 | [os-apply-config](https://github.com/openstack/os-apply-config) | 将openstack中cloud metadata信息(如heat中的template)转换成虚拟机OS可以识别的配置文件的工具 |
 | [os-collect-config](https://github.com/openstack/os-collect-config) | openstack实例中收集平台中配置文件的工具 |
 | [os-refresh-config](https://github.com/openstack/os-refresh-config) | openstack实例的工具，用于监控heat模版的变化，并在必要时重启实例中的应用和服务 |
+| [oslo-incubator](https://github.com/openstack/oslo-incubator) | oslo被设计为openstack各个服务的公共基础代码，因此其他服务(如nova，neutron服务)可重用的代码则需要加入到oslo中
+| [oslo.config](https://github.com/openstack/oslo.config) | oslo中服务配置的API，可为其他服务解析命令行参数和.ini配置文件 |
+| [python-celiometerclient](https://github.com/openstack/python-ceilometerclient) | ceilometer的python客户端 |
+| [python-novaclient](https://github.com/openstack/python-novaclient) | nova的python客户端 |
+| [python-swiftclient](https://github.com/openstack/python-swiftclient) | swift的python客户端 |
+| [python-cinderclient](https://github.com/openstack/python-novaclient) | cinder的python客户端 |
+| [python-ganttclient](https://github.com/openstack/python-ganttclient) | gantt的python客户端 |
+| [python-glanceclient](https://github.com/openstack/python-glanceclient) | glance的python客户端 |
+| [python-heatclient](https://github.com/openstack/python-heatclient) | heat的python客户端 |
+| [python-ironicclient](https://github.com/openstack/python-ironicclient) | ironic的python客户端 |
+| [python-keystoneclient](https://github.com/openstack/python-keystoneclient) | keystone的python客户端 |
+| [python-marconiclient](https://github.com/openstack/python-marconiclient) | marconi的python客户端 |
+| [python-neutronclient](https://github.com/openstack/python-neutronclient) | neutron的python客户端 |
+| [python-marconiclient](https://github.com/openstack/python-marconiclient) | marconi的python客户端 |
+| [python-savannaclient](https://github.com/openstack/python-savannaclient) | savanna的python客户端 |
+| [python-troveclient](https://github.com/openstack/python-troveclient) | trove的python客户端 |
+| [python-tuskaclient](https://github.com/openstack/python-tuskaclient) | tuska的python客户端 |
+| [python-openstackclient](https://github.com/openstack/python-openstackclient) | 旨在为openstack各服务提供统一的命令行调用和API接口，对其他各个python-*client模块进行封装 |
