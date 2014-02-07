@@ -29,3 +29,15 @@
 | [tuskar](https://github.com/openstack/tuskar) | 管理数据中心中openstack各个服务安装和部署的组件，同时，它还为平台管理者提供了诸如性能监控，健康度统计，使用量统计和硬件采购决策等功能。<br> python客户端：[python-tuskarclient](https://github.com/openstack/python-tuskarclient) <br> horizon插件：[tuskar-ui](https://github.com/openstack/tuskar-ui) |
 | [tempest](https://github.com/openstack/tempest) | openstack的集成测试工具，被设计成能够在任意规模的云环境中运行 |
 | [TripleO-incubator](https://github.com/tripleo-incubator) | TripleO(三个O，openstack-on-openstack)是个有趣的项目，通过在openstack中部署openstack开发测试环境，从功能代码更新到部署到实际生产环境自动化完成，并且具有速度快，代码可靠特点和持续集成/持续交付的能力 <br> 构建用于TripleO部署的镜像的打包工具：[tripleo-image-elements](https://github.com/openstack/tripleo-image-elements) <br> TripleO的heat部署模版：[tripleo-heat-templates](https://github.com/openstack/tripleo-heat-templates)
+
+
+## [openstack-dev主页](https://github.com/openstack-dev) 
+
+| 项目名称 | 描述 |
+|:---:|:---:|
+| [devstack](https://github.com/openstack-dev/devstack) | devstack是一组自动化安装和部署openstack各个子项目的工具脚本， 使用简单的配置即可实现部署单节点和多节点等多种模式 |
+| [pbr](https://github.com/openstack-dev/pbr) | pbr是python build reasonableness的简称，它是一个简化openstack子项目build过程的工具。开发者通过编写setup.cfg文件，即可实现项目的自动化构建，从这个意义上讲，它和java的ant工具类似 |
+| [hacking](https://github.com/openstack-dev/hacking) | hacking是openstack开发者的python代码规范测试工具 |
+| [grenade](https://github.com/openstack-dev/grenade) | 通常我们使用devstack来安装openstack，但是如果我们需要在此基础上升级每个项目，那么需要使用grenade |
+| [cookiecutter](https://github.com/openstack-dev/cookiecutter) | openstack每个子项目的基础代码模版 |
+| [openstack-nose](https://github.com/openstack-dev/openstack-nose) | openstack的一个nosetests插件 |
